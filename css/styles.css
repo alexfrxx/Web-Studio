@@ -419,6 +419,10 @@ p {
   gap: 24px;
 }
 
+.footer-form-wrapper {
+  margin-left: auto;
+}
+
 .footer-input {
   padding: 8px 16px;
   outline: none;
@@ -474,6 +478,8 @@ p {
 .modal-wrapper {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   height: 100%;
   width: 100%;
   display: none;
