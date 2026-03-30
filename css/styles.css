@@ -531,17 +531,15 @@ p {
   gap: 48px;
 }
 
-.burger-nav-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 168px;
-}
-
 .burger-navigation-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.burger-contact-wrap {
+  margin-top: auto;
 }
 
 .burger-link {
@@ -562,6 +560,7 @@ p {
 }
 
 .burger-socials {
+  margin-top: 48px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -878,9 +877,6 @@ textarea:focus {
   .team-list {
     row-gap: 64px;
   }
-  .team-item {
-    width: calc((100% - 24px) / 2);
-  }
   .ternary-title {
     text-align: left;
   }
@@ -902,6 +898,9 @@ textarea:focus {
 @media (min-width: 1158px) {
   .portfolio-list {
     row-gap: 48px;
+  }
+  .burger.is-open {
+    display: none;
   }
   p {
     font-weight: 400;
@@ -941,9 +940,6 @@ textarea:focus {
       0 1px 6px rgba(46, 47, 66, 0.08),
       0 1px 1px rgba(46, 47, 66, 0.16),
       0 2px 1px rgba(46, 47, 66, 0.08);
-  }
-  .team-item {
-    width: calc((100% - 96px) / 4);
   }
   .ternary-title {
     font-weight: 500;
