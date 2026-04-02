@@ -941,8 +941,11 @@ textarea:focus {
     flex-direction: row;
     gap: 40px;
   }
-  .footer-container-wrap {
-    gap: 80px;
+  .footer-info-wrapper {
+    margin-right: 120px;
+  }
+  .footer-socials-wrapper {
+    margin-right: auto;
   }
   .bottom-page {
     padding: 100px 0;
